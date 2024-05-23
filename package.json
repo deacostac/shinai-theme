@@ -1,0 +1,21 @@
+{
+  "name": "shinai-theme",
+  "displayName": "Shinai Theme",
+  "description": "The official Shinai theme. It is a set of colors that reflects the different personalities of its developers, we are sure that you will find the ideal one for you, we hope you enjoy it.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.89.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Shinai Theme",
+        "uiTheme": "vs-dark",
+        "path": "./themes/shinai-color-theme.json"
+      }
+    ]
+  }
+}
